@@ -71,7 +71,7 @@ tape.test("Square frame", tester({
 
 function checkFrame(test, options) {
 
-  var testCanvas = new Canvas(options.width, options.height),
+  var testCanvas = Canvas.createCanvas(options.width, options.height),
       context = testCanvas.getContext("2d");
 
   d3.queue()
