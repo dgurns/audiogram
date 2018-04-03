@@ -33,7 +33,17 @@
     "captionTop": 60,
     "captionRight": 1220,
     "captionLeft": 640,
-    "backgroundImage": "cover.jpg",
+    "backgroundImage": "text-right.png",
+    "foregroundColor": "#efefef",
+    "waveBottom": 660,
+    "waveTop": 320
+  },
+  "Background image with top left text": {
+    "captionAlign": "left",
+    "captionTop": 60,
+    "captionRight": 660,
+    "captionLeft": 60,
+    "backgroundImage": "accordion-reversed.jpg",
     "foregroundColor": "#efefef",
     "waveBottom": 660,
     "waveTop": 320
